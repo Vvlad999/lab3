@@ -12,3 +12,4 @@ C:\Users\vlad4\OneDrive\Рабочий стол\lab3\lab3\obj\Debug\net8.0\refin
 C:\Users\vlad4\OneDrive\Рабочий стол\lab3\lab3\obj\Debug\net8.0\lab3.pdb
 C:\Users\vlad4\OneDrive\Рабочий стол\lab3\lab3\obj\Debug\net8.0\lab3.genruntimeconfig.cache
 C:\Users\vlad4\OneDrive\Рабочий стол\lab3\lab3\obj\Debug\net8.0\ref\lab3.dll
+C:\Users\vlad4\OneDrive\Рабочий стол\lab3\lab3\obj\Debug\net8.0\lab3.sourcelink.json

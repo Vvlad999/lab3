@@ -38,7 +38,7 @@ namespace lab3
                     if(line.StartsWith("#"))
                     {
                         Answer answer = new Answer();
-                        answer.Text = line.Substring(1,line.IndexOf("→"));
+                        answer.Text = line.Substring(1,line.IndexOf("→")-1);
                         answer.NextScene = int.Parse(string.Join("", line.Substring(line.IndexOf("→")).Where(char.IsDigit).ToArray()));
                         currentscene.Answers.Add(answer);
                     }

@@ -4,8 +4,11 @@
     {
         static void Main(string[] args)
         {
-            var start = new txt_tojson();
-            start.Serialization();
+           
+            Console.SetWindowSize(100,100);
+            var tmp = new txt_tojson();
+            tmp.Serialization();
+            var g = new Launch();
         }
     }
 }
