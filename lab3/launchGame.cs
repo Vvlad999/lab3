@@ -9,15 +9,27 @@ namespace lab3
 {
     internal class Launch
     {
-        private string _path = "result.json";
-        public string Path {  get { return _path; } set { _path = value; } }
-
-        public Launch()
+        private string _path ;
+        public string Path
         {
-           
-            string  text = File.ReadAllText(Path);
-            Game game = JsonSerializer.Deserialize<Game>(text);
-            Scene currentScene = game.Scenes.Where( c=>c.No==game.StartScene).FirstOrDefault();
+            get { return _path; }
+            set
+            {
+                if (File.Exists(value)) { _path = value; }
+                else { throw new FileNotFoundException($"Файл не найден: {value}"); }
+            }
+        }
+        T checkDesirilization<T>()
+        {
+          string text = File.ReadAllText(Path);
+          T game = JsonSerializer.Deserialize<T>(text)??throw new Exception("game is null");
+          return game;
+        }
+        public Launch(string p = "result.json")
+        {
+            Path = p;
+            var game = checkDesirilization<Game>();
+            Scene currentScene = game.Scenes.Where( c=>c.No==game.StartScene).FirstOrDefault()??throw new Exception("wrong start scene");
             int i = 0;
             do
             {
@@ -36,6 +48,7 @@ namespace lab3
                 i++;
                 int ans = readInt(currentScene);
                 currentScene = game.Scenes.Where(c=>c.No == currentScene.Answers.ElementAt(ans).NextScene).FirstOrDefault();
+                if (currentScene == null || currentScene.Answers.Count==0) { Console.WriteLine("end...."); break; }
             } while (currentScene.Answers.Count!=0);
 
             

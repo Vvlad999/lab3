@@ -13,3 +13,18 @@ C:\Users\vlad4\OneDrive\Рабочий стол\lab3\lab3\obj\Debug\net8.0\lab3.
 C:\Users\vlad4\OneDrive\Рабочий стол\lab3\lab3\obj\Debug\net8.0\lab3.genruntimeconfig.cache
 C:\Users\vlad4\OneDrive\Рабочий стол\lab3\lab3\obj\Debug\net8.0\ref\lab3.dll
 C:\Users\vlad4\OneDrive\Рабочий стол\lab3\lab3\obj\Debug\net8.0\lab3.sourcelink.json
+C:\Users\vlad4\source\repos\Vvlad999\lab3\lab3\bin\Debug\net8.0\lab3.exe
+C:\Users\vlad4\source\repos\Vvlad999\lab3\lab3\bin\Debug\net8.0\lab3.deps.json
+C:\Users\vlad4\source\repos\Vvlad999\lab3\lab3\bin\Debug\net8.0\lab3.runtimeconfig.json
+C:\Users\vlad4\source\repos\Vvlad999\lab3\lab3\bin\Debug\net8.0\lab3.dll
+C:\Users\vlad4\source\repos\Vvlad999\lab3\lab3\bin\Debug\net8.0\lab3.pdb
+C:\Users\vlad4\source\repos\Vvlad999\lab3\lab3\obj\Debug\net8.0\lab3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vlad4\source\repos\Vvlad999\lab3\lab3\obj\Debug\net8.0\lab3.AssemblyInfoInputs.cache
+C:\Users\vlad4\source\repos\Vvlad999\lab3\lab3\obj\Debug\net8.0\lab3.AssemblyInfo.cs
+C:\Users\vlad4\source\repos\Vvlad999\lab3\lab3\obj\Debug\net8.0\lab3.csproj.CoreCompileInputs.cache
+C:\Users\vlad4\source\repos\Vvlad999\lab3\lab3\obj\Debug\net8.0\lab3.sourcelink.json
+C:\Users\vlad4\source\repos\Vvlad999\lab3\lab3\obj\Debug\net8.0\lab3.dll
+C:\Users\vlad4\source\repos\Vvlad999\lab3\lab3\obj\Debug\net8.0\refint\lab3.dll
+C:\Users\vlad4\source\repos\Vvlad999\lab3\lab3\obj\Debug\net8.0\lab3.pdb
+C:\Users\vlad4\source\repos\Vvlad999\lab3\lab3\obj\Debug\net8.0\lab3.genruntimeconfig.cache
+C:\Users\vlad4\source\repos\Vvlad999\lab3\lab3\obj\Debug\net8.0\ref\lab3.dll
