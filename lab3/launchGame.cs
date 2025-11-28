@@ -17,7 +17,6 @@ namespace lab3
            
             string  text = File.ReadAllText(Path);
             Game game = JsonSerializer.Deserialize<Game>(text);
-            
             Scene currentScene = game.Scenes.Where( c=>c.No==game.StartScene).FirstOrDefault();
             int i = 0;
             do
@@ -35,18 +34,21 @@ namespace lab3
                     Console.WriteLine(currentScene.Answers.IndexOf(answer) + ") " + answer.Text);
                 }
                 i++;
-                int ans = int.Parse(Console.ReadLine());
+                int ans = readInt(currentScene);
                 currentScene = game.Scenes.Where(c=>c.No == currentScene.Answers.ElementAt(ans).NextScene).FirstOrDefault();
             } while (currentScene.Answers.Count!=0);
-            Console.ReadLine();
-/*
-            int readInt()
-            {
 
-            }*/
             
-        }
 
+        }
+        int readInt(Scene c)
+        {
+            while (true)
+            {
+                if (int.TryParse(Console.ReadLine(), out int value) && value >= 0 && value < c.Answers.Count) return value;
+                Console.WriteLine("неверный ввод");
+            }
+        }
 
     }
 }
