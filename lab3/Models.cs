@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace lab3
+namespace lab3.Models
 {
-    internal class Game
+    public class Game
     {
         private string _name;
         public string Name { get { return _name; } set { _name = value; } }
@@ -15,7 +15,7 @@ namespace lab3
         public List<Scene> Scenes { get; set; }
     }
 
-    internal class Scene
+    public class Scene
     {
         private int _No;
         public int No { get { return _No; } set { _No = value; } }
@@ -23,7 +23,7 @@ namespace lab3
         public string Text { get { return _text; } set { _text = value; } }
         public List<Answer> Answers { get; set; }
     }
-    internal class Answer
+    public class Answer
     {
         private string _text;
         public string Text { get { return _text; } set { _text = value; } }
