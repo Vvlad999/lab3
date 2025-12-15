@@ -1,13 +1,13 @@
 ﻿using lab3.Services;
 using lab3.Interfaces;
-
+using lab3.Core;
 namespace lab3
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            string txtPath = "textGame.txt";
+            string txtPath = @"C:\Users\vlad4\OneDrive\Рабочий стол\textGame.txt";
             string jsonPath = "result.json";
 
             var converter = new TxtToGameConverter();
